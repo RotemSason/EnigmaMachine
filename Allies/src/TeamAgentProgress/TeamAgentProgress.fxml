@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.FlowPane?>
+
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="234.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TeamAgentProgress.TeamAgentProgressController">
+   <children>
+      <TableView fx:id="AgentDetailsTable" prefHeight="150.0" prefWidth="470.0">
+        <columns>
+          <TableColumn fx:id="NameAgentColumn" prefWidth="92.33334350585938" text="Name Agent" />
+          <TableColumn fx:id="TotalRecievedTasksColumn" prefWidth="120.66665649414062" text="Total Recieved Tasks" />
+            <TableColumn fx:id="TotalWaitingTasksColumn" prefWidth="119.6666259765625" text="Total Waiting Tasks" />
+            <TableColumn fx:id="TotalCandidateStringColumn" prefWidth="137.0" text="Total Candidate String" />
+        </columns>
+         <FlowPane.margin>
+            <Insets top="80.0" />
+         </FlowPane.margin>
+      </TableView>
+   </children>
+</FlowPane>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="HboxCodeConf" maxHeight="350.0" maxWidth="600.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="800.0" styleClass="skin-color" stylesheets="@codeConfiguration.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="codeConfiguration.codeConfigurationController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="208.0" styleClass="skin-color">
+         <children>
+            <Label alignment="CENTER" prefHeight="17.0" prefWidth="228.0" styleClass="title-label" text="Code calibration" />
+            <Button fx:id="RandomCodeButton" mnemonicParsing="false" onAction="#clickButtonRandomCodeAction" styleClass="calibration-button" text="Random Code ">
+               <VBox.margin>
+                  <Insets left="20.0" top="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="SetManualCodeButton" mnemonicParsing="false" onAction="#clickButtonManualCodeAction" styleClass="calibration-button" text="Set Manual Code ">
+               <VBox.margin>
+                  <Insets bottom="3.0" left="20.0" top="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="setRotors" mnemonicParsing="false" onAction="#clickSetRotorsButton" styleClass="set-manual-code" text="set rotors">
+               <VBox.margin>
+                  <Insets bottom="3.0" left="20.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="setPositions" mnemonicParsing="false" onAction="#cllicksetPositionsButton" styleClass="set-manual-code" text="set positions">
+               <VBox.margin>
+                  <Insets bottom="3.0" left="20.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="setReflector" mnemonicParsing="false" onAction="#clickSetReflectorButton" styleClass="set-manual-code" text="set reflector">
+               <VBox.margin>
+                  <Insets bottom="3.0" left="20.0" />
+               </VBox.margin>
+            </Button>
+            <CheckBox fx:id="isAnimations" mnemonicParsing="false" onAction="#clickCheckBocAnimations" styleClass="animation" text="Use Animations">
+               <VBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </VBox.margin>
+            </CheckBox>
+         </children>
+      </VBox>
+   </children>
+</HBox>

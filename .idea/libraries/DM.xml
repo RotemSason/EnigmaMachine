@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="DM">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DM_jar/DM.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="EngineUI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/EngineUI_jar</output-path>
+    <root id="archive" name="EngineUI.jar">
+      <element id="module-output" name="EngineUI" />
+      <element id="module-output" name="Machine" />
+    </root>
+  </artifact>
+</component>

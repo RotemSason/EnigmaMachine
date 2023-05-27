@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UBoat:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UBoat_jar</output-path>
+    <root id="archive" name="UBoat.jar">
+      <element id="module-output" name="UBoat" />
+      <element id="module-output" name="EngineUI" />
+    </root>
+  </artifact>
+</component>

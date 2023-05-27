@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" stylesheets="@winContest.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="winContest.WinContestController">
+   <children>
+      <VBox>
+         <children>
+            <Label fx:id="winAllies" prefHeight="17.0" prefWidth="301.0" styleClass="title-win" />
+            <Label fx:id="winMessage" prefHeight="17.0" prefWidth="299.0" styleClass="title-win" />
+            <Button fx:id="ButtonClearUBoat" mnemonicParsing="false" onAction="#clickButtonClearUBoat" text="OK.Clear" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+.button{
+    -fx-border-radius: 20px;
+    -fx-border-color: #38B6FF;
+    -fx-background-color: #f9f9f9;
+    -fx-font-size: 12px;
+    -fx-font-family: "Segoe UI Black";
+    -fx-font-weight: bold;
+}
+.vbox-code{
+    -fx-border-radius: 20px;
+    -fx-border-color: Black;
+}
+#hboxAll{
+    -fx-background-color: White;
+}
+
+.title-label{
+    -fx-font-size: 16px;
+    -fx-text-fill: #38B6FF;
+    -fx-font-family: "Segoe UI Black";
+    -fx-font-weight: bold;
+}
+#ChoiceBoxEncode{
+    -fx-background-color: White;
+    -fx-border-radius: 20px;
+    -fx-border-color: #38B6FF;
+}
+.title-label-history{
+    -fx-font-size: 16px;
+    -fx-text-fill: Black;
+    -fx-font-family: "Segoe UI Black";
+    -fx-font-weight: bold;
+}
+.text-fill{
+    -fx-font-size: 12px;
+    -fx-text-fill: Black;
+    -fx-font-family: "Segoe UI";
+}
+.scroll-bar:horizontal .thumb{
+    -fx-background-color: #38B6FF;
+    -fx-opacity: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.scroll-bar:vertical .thumb{
+    -fx-background-color: #38B6FF;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+.scroll-bar {
+
+    -fx-hbar-policy: never;
+}

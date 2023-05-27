@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ProjectEnigma">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/gson-2.8.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gson-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gson-2.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gson-2.1-javadoc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

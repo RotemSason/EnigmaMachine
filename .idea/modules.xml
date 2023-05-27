@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Agent/Agent.iml" filepath="$PROJECT_DIR$/Agent/Agent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Allies/Allies.iml" filepath="$PROJECT_DIR$/Allies/Allies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DM/DM.iml" filepath="$PROJECT_DIR$/DM/DM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Engine/Engine.iml" filepath="$PROJECT_DIR$/Engine/Engine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EngineUI/EngineUI.iml" filepath="$PROJECT_DIR$/EngineUI/EngineUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Machine/Machine.iml" filepath="$PROJECT_DIR$/Machine/Machine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UBoat/UBoat.iml" filepath="$PROJECT_DIR$/UBoat/UBoat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UI/UI.iml" filepath="$PROJECT_DIR$/UI/UI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webApp/webApp.iml" filepath="$PROJECT_DIR$/webApp/webApp.iml" />
+    </modules>
+  </component>
+</project>

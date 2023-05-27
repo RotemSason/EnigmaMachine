@@ -1,0 +1,30 @@
+#TheEnigmaMachine{
+    -fx-font-size: 30px;
+    -fx-font-family: "Dubai Medium";
+    -fx-text-fill:#38B6FF;
+
+}
+#loadFileButton{
+
+    -fx-border-color: #38B6FF;
+
+    -fx-background-color: White;
+    -fx-font-family: "Segoe UI Black";
+    -fx-font-weight: bold;
+}
+#vboxLoadFile{
+    -fx-background-image: url(Enigma.jpg);
+}
+
+.title-tab{
+
+    -fx-font-size: 14px;
+    -fx-font-family: "Dubai";
+    -fx-background-color: White;
+    -fx-border-color: Gray;
+}
+
+.tab-header-background {
+    -fx-background-color: White;
+}
+

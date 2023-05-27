@@ -1,0 +1,22 @@
+.button{
+    -fx-border-radius: 20px;
+    -fx-border-color: #38B6FF;
+    -fx-background-color: #f9f9f9;
+    -fx-font-size: 12px;
+    -fx-font-family: "Segoe UI Black";
+    -fx-font-weight: bold;
+}
+
+#Decrypt{
+    -fx-font-weight: bold;
+}
+
+.title-label{
+    -fx-font-size: 12px;
+    -fx-text-fill: Black;
+    -fx-font-family: "Segoe UI Black";
+    -fx-font-weight: bold;
+}
+.hbox-all{
+    -fx-background-color: White;
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="vboxCurrentCode" maxHeight="-Infinity" maxWidth="800.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="140.0" prefWidth="800.0" styleClass="skin-color" stylesheets="@CurrentCode.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CurrentCode.CurrentCodeController">
+   <children>
+      <Label alignment="CENTER" prefHeight="17.0" prefWidth="618.0" styleClass="title-label" text="Current machine configuration" />
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ScrollPane fitToHeight="true" fitToWidth="true" styleClass="skin-color">
+               <content>
+                  <VBox alignment="CENTER" prefHeight="100.0" prefWidth="271.0" styleClass="skin-color">
+                     <children>
+                        <Label fx:id="reflector" styleClass="code-label">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Label>
+                        <Separator fx:id="sepOne" prefWidth="200.0" />
+                        <Label fx:id="plugs" styleClass="code-label">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Label>
+                        <Separator fx:id="sepTwo" prefWidth="200.0" />
+                        <Button fx:id="oldCodeButton" mnemonicParsing="false" onAction="#clickOldColdButton" prefHeight="27.0" prefWidth="195.0" text="another code view">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+               </content>
+            </ScrollPane>
+            <ScrollPane fitToHeight="true" fitToWidth="true" prefHeight="100.0" prefWidth="580.0" styleClass="skin-color">
+               <content>
+                  <HBox fx:id="hboxGears" prefHeight="100.0" prefWidth="355.0" styleClass="skin-color">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </HBox>
+               </content>
+            </ScrollPane>
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>

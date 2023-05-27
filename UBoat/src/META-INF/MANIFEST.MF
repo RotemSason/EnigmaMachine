@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Main-Class: ScreenUBoat
+Class-Path: EngineUI.jar controlsfx-8.40.14.jar annotations-13.0.jar kot
+ lin-stdlib-1.4.10.jar kotlin-stdlib-common-1.4.10.jar okio-2.8.0.jar ok
+ http-4.9.1.jar gson-2.1-sources.jar gson-2.1-javadoc.jar gson-2.1.jar a
+ nnotations-api.jar catalina.jar catalina-ant.jar catalina-ha.jar catali
+ na-ssi.jar catalina-storeconfig.jar catalina-tribes.jar ecj-4.20.jar el
+ -api.jar jakartaee-migration-1.0.4-shaded.jar jasper.jar jasper-el.jar 
+ jaspic-api.jar jsp-api.jar servlet-api.jar tomcat-api.jar tomcat-coyote
+ .jar tomcat-dbcp.jar tomcat-i18n-cs.jar tomcat-i18n-de.jar tomcat-i18n-
+ es.jar tomcat-i18n-fr.jar tomcat-i18n-ja.jar tomcat-i18n-ko.jar tomcat-
+ i18n-pt-BR.jar tomcat-i18n-ru.jar tomcat-i18n-zh-CN.jar tomcat-jdbc.jar
+  tomcat-jni.jar tomcat-util.jar tomcat-util-scan.jar tomcat-websocket.j
+ ar websocket-api.jar
+

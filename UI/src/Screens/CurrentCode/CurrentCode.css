@@ -1,0 +1,35 @@
+.title-label{
+    -fx-font-size: 22px;
+    -fx-font-family: "Dubai";
+
+}
+
+
+.code-label{
+    -fx-font-weight: bold;
+}
+
+#oldCodeButton{
+
+    -fx-border-radius: 20px;
+    -fx-border-color: #38B6FF;
+    -fx-background-color: #f9f9f9;
+    -fx-font-family: "Segoe UI Black";
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+.scroll-pane {
+    -fx-background-insets: 1;
+    -fx-padding: 0;
+}
+
+.scroll-pane:focused {
+    -fx-background-insets: 0;
+    -fx-background-color: #38B6FF;
+}
+
+.scroll-pane .corner {
+    -fx-background-insets: 0;
+    -fx-background-color: #38B6FF;
+}
